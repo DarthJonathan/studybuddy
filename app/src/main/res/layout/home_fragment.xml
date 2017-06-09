@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btnProgramming"
+                android:layout_width="300dp"
+                android:layout_height="80dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/progbutton" />
+
+            <Button
+                android:id="@+id/btnMath"
+                android:layout_width="300dp"
+                android:layout_height="80dp"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@+id/btnProgramming"
+                android:layout_marginTop="27dp"
+                android:background="@drawable/mathbutton" />
+
+            <Button
+                android:id="@+id/btnPhysics"
+                android:layout_width="300dp"
+                android:layout_height="80dp"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/btnMath"
+                android:layout_marginTop="27dp"
+                android:background="@drawable/physicsbutton" />
+        </RelativeLayout>
+    </ScrollView>
+
+</LinearLayout>
