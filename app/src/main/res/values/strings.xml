@@ -2,5 +2,43 @@
     <string name="app_name">StudyBuddy</string>
 
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="pContent1">
+        Why should we study the concepts of programming languages?
+        \n
+            \n\t• It increases the ability to express ideas
+            \n\t• So we can choose the most appropriate language for the job
+            \n\t• Learn new languages easily!
+            \n\t• Better understanding of significance of implementation
+            \n\t• Better use of languages that you already know
+            \n\t• Overall, get good at computing!
+    </string>
+
+    <string name="pContent2">
+        There are criteria for evaluating a programming language :
+        \n
+            \n\t• <u>Readability: the ease of which programs can be read and understood</u>
+            \n\t• Writability: the ease of which a language can be used to create programs
+            \n\t• Reliability: performance, based on its specifications
+            \n\t• Cost: the ultimate total cost
+    </string>
+
+    <string name="pContent3">
+        Things that influence Language Design :
+    </string>
+
+    <string name="pContent5">
+        1. Computer Architecture, specifically, the von Neumann Architecture
+    </string>
+
+    <string name="pContent8">
+        such as object-oriented software development, which led to new programming paradigms and programming languages.
+    </string>
+
+    <string name="pContent11">
+        Also, Programming Languages are divided into a few Categories,
+    </string>
+
+    <string name="pContent12">
+        Imperative, Functional, Logic, and Markup
+    </string>
 </resources>

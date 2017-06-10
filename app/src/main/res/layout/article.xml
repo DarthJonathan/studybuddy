@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/lblTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Introduction to Programming I"
+            android:textSize="20sp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <RelativeLayout
+            android:id="@+id/underline"
+            android:layout_width="300dp"
+            android:layout_height="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorBlack"
+            android:layout_below="@+id/lblTitle"
+            android:layout_centerHorizontal="true">
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/pContent1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="@string/pContent1"
+            android:textSize="14sp"
+            android:layout_below="@+id/underline"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:id="@+id/pContent2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="@string/pContent2"
+            android:textSize="14sp"
+            android:layout_below="@+id/pContent1"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:id="@+id/pContent3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/pContent2"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="30dp"
+            android:text="@string/pContent3"
+            android:textAlignment="center"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/imgContent4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/figone"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_below="@+id/pContent3"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/pContent5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/imgContent4"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/pContent5"
+            android:textAlignment="center"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/pContent6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/pContent5"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="30dp"
+            android:text="And...."
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/pContent7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/pContent6"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="30dp"
+            android:text="2. Program Design Methods"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/pContent8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/pContent7"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="20dp"
+            android:text="@string/pContent8"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/pContent9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/pContent8"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="30dp"
+            android:text="So, what are the Domains of Programming?"
+            android:textAlignment="center"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/imgContent10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/figtwo"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/pContent9"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/pContent11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/imgContent10"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="120dp"
+            android:layout_marginTop="30dp"
+            android:text="@string/pContent11"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/pContent12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/pContent11"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/pContent12"
+            android:textAlignment="center"
+            android:textSize="18sp" />
+
+        <RelativeLayout
+            android:id="@+id/underlineEnd"
+            android:layout_width="300dp"
+            android:layout_height="5dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/colorGrey"
+            android:layout_below="@+id/pContent12"
+            android:layout_centerHorizontal="true">
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/lblEnd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/underlineEnd"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp"
+            android:text="You've reached the end of the lesson! Yay!"
+            android:textAlignment="center"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btnQuiz"
+            android:layout_width="181dp"
+            android:layout_height="43dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="50dp"
+            android:background="@drawable/quizbutton"
+            android:layout_below="@+id/lblEnd"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+
+
+</ScrollView>

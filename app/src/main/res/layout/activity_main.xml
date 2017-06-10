@@ -6,93 +6,110 @@
     android:layout_height="match_parent"
     tools:context="com.example.studybuddy.studybuddy.MainActivity"
     android:orientation="vertical">
-    
+
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#fff"
         android:layout_marginTop="0dp"
+        android:background="#fff"
         android:gravity="center"
         android:padding="18dp">
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="StudyBuddy"
-            android:textSize="12pt"/>
+            android:textSize="12pt" />
     </RelativeLayout>
 
     <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="376dp">
+        <!--<fragment-->
+        <!--android:name="com.example.studybuddy.studybuddy.HomeFragment"-->
+        <!--android:id="@+id/pageFragment"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="376dp"-->
+        <!--&gt;-->
+        <!--</fragment>-->
+    </FrameLayout>
+
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <fragment
-            android:name="com.example.studybuddy.studybuddy.HomeFragment"
-            android:id="@+id/pageFragment"
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="6dp"
+            android:background="@color/colorAccent"
+            android:id="@+id/linearLayout"
+            android:orientation="horizontal">
+
+        </LinearLayout>
+
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            >
-        </fragment>
-    </FrameLayout>
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="12dp"
+            android:layout_below="@+id/linearLayout">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="6dp"
-        android:background="@color/colorAccent"/>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".33"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/btnCategory"
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:background="@drawable/catbtn"
+                    android:onClick="btnCategory"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".33"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/btnUpload"
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:background="@drawable/uploadbtn"
+                    android:onClick="btnUpload"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".33"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/btnStatistics"
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:background="@drawable/statbtn"
+                    android:onClick="btnStatistics"/>
+            </RelativeLayout>
+
+        </LinearLayout>
 
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:padding="12dp"
-        android:layout_marginTop="-58dp"
-        android:gravity="center">
-
-        <RelativeLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight=".33"
-            android:gravity="center">
-            <Button
-                android:layout_width="36dp"
-                android:layout_height="36dp"
-                android:background="@drawable/catbtn"
-                android:layout_marginRight="8dp"
-                android:layout_marginLeft="8dp"/>
-        </RelativeLayout>
-
-        <RelativeLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight=".33"
-            android:gravity="center">
-            <Button
-                android:layout_width="36dp"
-                android:layout_height="36dp"
-                android:background="@drawable/uploadbtn"
-                android:layout_marginRight="8dp"
-                android:layout_marginLeft="8dp"/>
-        </RelativeLayout>
-
-        <RelativeLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_weight=".33"
-        android:gravity="center">
-        <Button
-            android:layout_width="36dp"
-            android:layout_height="36dp"
-            android:background="@drawable/statbtn"
-            android:layout_marginRight="8dp"
-            android:layout_marginLeft="8dp"/>
     </RelativeLayout>
 
-    </LinearLayout>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="6dp"
-        android:background="@color/colorAccent"
-        android:layout_marginTop="-68dp"/>
+
 
 </LinearLayout>
