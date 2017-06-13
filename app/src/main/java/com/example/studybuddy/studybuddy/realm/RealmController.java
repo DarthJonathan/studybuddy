@@ -21,13 +21,13 @@ public class RealmController {
 
         Question one = db.createObject(Question.class);
 
-        one.setAnswer(1);
+        one.setAnswer(3);
         one.setId(1);
-        one.setQuestion("Apakah jeffry single");
-        one.setAnswerOne("Yes");
-        one.setAnswerTwo("No");
-        one.setAnswerThree("IYESSS");
-        one.setAnswerFour("NAWWW");
+        one.setQuestion("Why study programming language concept?");
+        one.setAnswerOne("Learn better to express feeling");
+        one.setAnswerTwo("To learn other languages difficulty");
+        one.setAnswerThree("To better choose the programming language we need!");
+        one.setAnswerFour("To use the language I never known");
 
         db.commitTransaction();
     }
@@ -49,12 +49,12 @@ public class RealmController {
             Question newques = db.createObject(Question.class);
 
             newques.setId(2);
-            newques.setQuestion("Dapid kentang ga?");
-            newques.setAnswerOne("Selalu");
-            newques.setAnswerTwo("Always");
-            newques.setAnswerThree("Tidakpernah tidak");
-            newques.setAnswerFour("Memang iya");
-            newques.setAnswer(4);
+            newques.setQuestion("Which is not the the criteria of evaluating a programming language?");
+            newques.setAnswerOne("Readability");
+            newques.setAnswerTwo("Reability");
+            newques.setAnswerThree("Writability");
+            newques.setAnswerFour("Opportunity");
+            newques.setAnswer(2);
 
         db.commitTransaction();
     }
