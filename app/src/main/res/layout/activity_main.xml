@@ -25,7 +25,8 @@
     <FrameLayout
         android:id="@+id/fragment_container"
         android:layout_width="match_parent"
-        android:layout_height="376dp">
+        android:layout_height="match_parent"
+        android:layout_marginBottom="76dp">
         <!--<fragment-->
         <!--android:name="com.example.studybuddy.studybuddy.HomeFragment"-->
         <!--android:id="@+id/pageFragment"-->
@@ -37,13 +38,14 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="72dp"
+        android:layout_marginTop="-72dp">
 
         <LinearLayout
+            android:id="@+id/linearLayout"
             android:layout_width="match_parent"
             android:layout_height="6dp"
             android:background="@color/colorAccent"
-            android:id="@+id/linearLayout"
             android:orientation="horizontal">
 
         </LinearLayout>
@@ -53,8 +55,7 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:orientation="horizontal"
-            android:padding="12dp"
-            android:layout_below="@+id/linearLayout">
+            android:padding="12dp">
 
             <RelativeLayout
                 android:layout_width="wrap_content"
@@ -64,12 +65,12 @@
 
                 <Button
                     android:id="@+id/btnCategory"
-                    android:layout_width="36dp"
-                    android:layout_height="36dp"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
                     android:layout_marginLeft="8dp"
                     android:layout_marginRight="8dp"
                     android:background="@drawable/catbtn"
-                    android:onClick="btnCategory"/>
+                    android:onClick="btnCategory" />
             </RelativeLayout>
 
             <RelativeLayout
@@ -80,12 +81,12 @@
 
                 <Button
                     android:id="@+id/btnUpload"
-                    android:layout_width="36dp"
-                    android:layout_height="36dp"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
                     android:layout_marginLeft="8dp"
                     android:layout_marginRight="8dp"
                     android:background="@drawable/uploadbtn"
-                    android:onClick="btnUpload"/>
+                    android:onClick="btnUpload" />
             </RelativeLayout>
 
             <RelativeLayout
@@ -96,12 +97,12 @@
 
                 <Button
                     android:id="@+id/btnStatistics"
-                    android:layout_width="36dp"
-                    android:layout_height="36dp"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
                     android:layout_marginLeft="8dp"
                     android:layout_marginRight="8dp"
                     android:background="@drawable/statbtn"
-                    android:onClick="btnStatistics"/>
+                    android:onClick="btnStatistics" />
             </RelativeLayout>
 
         </LinearLayout>

@@ -3,21 +3,48 @@
 
     <item
         is-multidex="true"
-        jar="C:\Users\Jeff\Documents\GitHub\studybuddy\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jar="/Users/JohnNate/.android/build-cache/8d284d419a7e4fed2b6d0aa2c3c8205451a8b7a1/output/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.3"
-        sha1="a5a73319f6d8398052b0e31f205db092d1592b01">
-        <dex dex="C:\Users\Jeff\Documents\GitHub\studybuddy\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_0e9274cddddce92862f44e5905b1fc60a2d5d739\classes.dex" />
+        sha1="be587097e648eabfb7f9eca23ab03369894e2d5d">
+        <dex dex="/Users/JohnNate/Developments/studybuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_c4c67cd7520d5f7371b70e05c0d7e692d969cb8f/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Jeff\Documents\GitHub\studybuddy\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jar="/Users/JohnNate/Developments/studybuddy/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="c696be7073a0a9d7869eb7abbf40dbbaae001fd7">
+        <dex dex="/Users/JohnNate/Developments/studybuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_6da7850302492dc8a85ecbb49509c36dc7d2a138/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/JohnNate/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife-annotations/8.6.0/48efa6f14074e1a6b16e02ac05eba3fc5c7c7ec8/butterknife-annotations-8.6.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="48efa6f14074e1a6b16e02ac05eba3fc5c7c7ec8">
+        <dex dex="/Users/JohnNate/Developments/studybuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/butterknife-annotations-8.6.0_d8c271338ad128107bb8f3579589c3ef5da49494/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/JohnNate/.gradle/caches/modules-2/files-2.1/io.realm/realm-android/0.84.1/b86074e6240f0f876701810a047b0261f7bd060e/realm-android-0.84.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="b86074e6240f0f876701810a047b0261f7bd060e">
+        <dex dex="/Users/JohnNate/Developments/studybuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/realm-android-0.84.1_dc517b1b9a645ffcea098fa97681db36a5c598c0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/JohnNate/Developments/studybuddy/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.3"
         sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
-        <dex dex="C:\Users\Jeff\Documents\GitHub\studybuddy\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_cbdfdc75cfead832751112038704cd8dabf5cb55\classes.dex" />
+        <dex dex="/Users/JohnNate/Developments/studybuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_073cc67cb0cb581b5cf52693c536bf6d23bb290b/classes.dex" />
     </item>
 
 </items>

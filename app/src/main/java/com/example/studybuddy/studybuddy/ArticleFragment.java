@@ -107,9 +107,14 @@ public class ArticleFragment extends Fragment implements View.OnClickListener, F
     @Override
     public void onClick(View view) {
 
-        //coba toast
         switch (view.getId()){
-            case R.id.btnQuiz:test("show QUIZ");break;
+            case R.id.btnQuiz:
+            {
+                QuizController controller = new QuizController();
+                controller.setManager(getFragmentManager());
+                controller.show();
+                controller.setInstance(controller.thisInstance());
+            }break;
         }
     }
 

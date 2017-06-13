@@ -5,11 +5,18 @@ import android.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 
+import com.example.studybuddy.studybuddy.realm.Question;
+import com.example.studybuddy.studybuddy.realm.RealmController;
+
 import butterknife.BindView;
 import butterknife.OnClick;
+import io.realm.Realm;
+import io.realm.RealmConfiguration;
+import io.realm.RealmResults;
 
 public class MainActivity extends AppCompatActivity implements FragmentChangeListener{
     @BindView(R.id.btnCategory)
@@ -22,10 +29,26 @@ public class MainActivity extends AppCompatActivity implements FragmentChangeLis
     HomeFragment homeFragment;
     EmptyCategory emptyCategory;
     ComingSoon comingSoon;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        //Init realm
+        RealmConfiguration realmConfiguration = new RealmConfiguration.Builder(this).build();
+        Realm.deleteRealm(realmConfiguration); // Clean slate
+        Realm.setDefaultConfiguration(realmConfiguration); // Make this Realm the default
+
+        RealmController.addNew();
+        RealmController.storeNew();
+
+        RealmResults<Question> results1 =
+                RealmController.db.where(Question.class).findAll();
+
+        for(Question c:results1) {
+            Log.d("results1", c. getQuestion());
+        }
 
         if(savedInstanceState!=null){
             return;
